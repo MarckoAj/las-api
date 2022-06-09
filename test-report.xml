@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
   <file path="C:\Users\Marck\Desktop\desafio-s11-marckoAj\__tests__\example.test.js">
-    <testCase name="Home URL Base" duration="435"/>
+    <testCase name="Home URL Base" duration="355"/>
   </file>
   <file path="C:\Users\Marck\Desktop\desafio-s11-marckoAj\las-api-dev\__tests__\tiposVendasMock - test.js">
-    <testCase name="testa GET /tipos-vendas Deve retornar lista com tipos-vendas" duration="24"/>
-    <testCase name="testa GET /tipos-vendas Deve retornar tipo-venda pelo ID" duration="5"/>
-    <testCase name="testa GET /tipos-vendas Não deve retornar tipo-venda por um ID inexistente" duration="10"/>
-    <testCase name="Testa POST /tipos-venda Cria tipo-venda válido com sucesso" duration="22"/>
+    <testCase name="testa GET /tipos-vendas Deve retornar lista com tipos-vendas" duration="26"/>
+    <testCase name="testa GET /tipos-vendas Deve retornar tipo-venda pelo ID" duration="6"/>
+    <testCase name="testa GET /tipos-vendas Não deve retornar tipo-venda por um ID inexistente" duration="11"/>
+    <testCase name="Testa POST /tipos-venda Cria tipo-venda válido com sucesso" duration="19"/>
     <testCase name="Testa POST /tipos-venda Nao deve criar tipo-venda com dados Inválidos" duration="6"/>
-    <testCase name="testa /PUT tipos-venda Deve alterar tipo-venda pelo ID Existente " duration="4"/>
+    <testCase name="testa /PUT tipos-venda Deve alterar tipo-venda pelo ID Existente " duration="5"/>
     <testCase name="testa /PUT tipos-venda Não deve alterar tipo-venda pelo ID Inexistente " duration="4"/>
-    <testCase name="testa /DELETE tipos-venda Deve deletar tipos-venda pelo ID Existente " duration="3"/>
-    <testCase name="testa /DELETE tipos-venda Não deve deletar tipos-venda pelo ID Inexistente " duration="5"/>
+    <testCase name="testa /DELETE tipos-venda Deve deletar tipos-venda pelo ID Existente " duration="5"/>
+    <testCase name="testa /DELETE tipos-venda Não deve deletar tipos-venda pelo ID Inexistente " duration="4"/>
   </file>
   <file path="C:\Users\Marck\Desktop\desafio-s11-marckoAj\las-api-dev\__tests__\eventos - test.js">
-    <testCase name="testa GET /eventos Página Inicial" duration="25"/>
-    <testCase name="testa GET /eventos Deve retornar lista com eventos" duration="13"/>
-    <testCase name="testa GET /eventos Deve retornar evento pelo ID" duration="4"/>
+    <testCase name="testa GET /eventos Página Inicial" duration="27"/>
+    <testCase name="testa GET /eventos Deve retornar lista com eventos" duration="15"/>
+    <testCase name="testa GET /eventos Deve retornar evento pelo ID" duration="6"/>
     <testCase name="testa GET /eventos Não deve retornar evento por um ID inexistente" duration="19"/>
     <testCase name="testa GET /eventos Deve retornar evento pelo Status agendado " duration="5"/>
     <testCase name="testa GET /eventos Deve retornar evento pelo Status em-andamento " duration="5"/>
-    <testCase name="testa GET /eventos Deve retornar evento pelo Status agendado " duration="5"/>
+    <testCase name="testa GET /eventos Deve retornar evento pelo Status agendado " duration="4"/>
     <testCase name="testa GET /eventos Não deve retornar evento com Status invalido " duration="5"/>
-    <testCase name="Testa POST /eventos Cria evento válido com sucesso" duration="229"/>
-    <testCase name="Testa POST /eventos Nao cria evento com data inicio &gt; data fim" duration="6"/>
+    <testCase name="Testa POST /eventos Cria evento válido com sucesso" duration="219"/>
+    <testCase name="Testa POST /eventos Nao cria evento com data inicio &gt; data fim" duration="4"/>
     <testCase name="testa /PUT eventos Deve alterar evento pelo ID valido " duration="4"/>
-    <testCase name="testa /DELETE eventos Deve alterar evento pelo ID valido " duration="3"/>
+    <testCase name="testa /DELETE eventos Deve alterar evento pelo ID valido " duration="2"/>
   </file>
   <file path="C:\Users\Marck\Desktop\desafio-s11-marckoAj\las-api-dev\__tests__\usuarios - test.js">
-    <testCase name="testa GET /usuarios Deve Listar usuarios" duration="27"/>
+    <testCase name="testa GET /usuarios Deve Listar usuarios" duration="25"/>
     <testCase name="testa GET /usuarios Deve buscar usuario pelo NOME" duration="5"/>
-    <testCase name="testa GET /usuarios Não deve achar usuario com NOME não cadastrado" duration="3"/>
+    <testCase name="testa GET /usuarios Não deve achar usuario com NOME não cadastrado" duration="4"/>
     <testCase name="testa GET /usuarios Deve buscar usuario pelo ID" duration="4"/>
     <testCase name="testa GET /usuarios Não deve achar usuario com ID inexistente " duration="3"/>
     <testCase name="testa GET /usuarios Deve buscar endereco pelo ID" duration="4"/>
@@ -39,20 +39,20 @@
     <testCase name="testa GET /usuarios Deve buscar contatos pelo ID" duration="3"/>
     <testCase name="testa GET /usuarios Não deve achar contatos pelo ID inexistente" duration="4"/>
     <testCase name="testa GET /usuarios Deve buscar dados-pessoais pelo ID" duration="3"/>
-    <testCase name="testa GET /usuarios Não deve achar dados-pessoais pelo ID inexistente" duration="3"/>
-    <testCase name="Testa POST /usuarios Cria usuarios com dados válidos com sucesso" duration="195"/>
-    <testCase name="Testa POST /usuarios Nao cria novo usuario com dados inválidos " duration="31"/>
-    <testCase name="testa PUT /usuarios deve alterar dados pelo ID" duration="4"/>
+    <testCase name="testa GET /usuarios Não deve achar dados-pessoais pelo ID inexistente" duration="4"/>
+    <testCase name="Testa POST /usuarios Cria usuarios com dados válidos com sucesso" duration="198"/>
+    <testCase name="Testa POST /usuarios Nao cria novo usuario com dados inválidos " duration="29"/>
+    <testCase name="testa PUT /usuarios deve alterar dados pelo ID" duration="3"/>
     <testCase name="testa PUT /usuarios Não deve alterar dados pelo ID inválido" duration="3"/>
     <testCase name="testa PUT /usuarios Não deve alterar dados com ID invalido" duration="4"/>
-    <testCase name="testa PUT /usuarios deve alterar contatos pelo ID" duration="4"/>
+    <testCase name="testa PUT /usuarios deve alterar contatos pelo ID" duration="3"/>
     <testCase name="testa PUT /usuarios Não deve alterar contatos com ID invalido" duration="3"/>
-    <testCase name="testa PUT /usuarios deve alterar senha pelo ID" duration="4"/>
+    <testCase name="testa PUT /usuarios deve alterar senha pelo ID" duration="3"/>
     <testCase name="testa PUT /usuarios Não deve alterar senha com ID invalido" duration="3"/>
-    <testCase name="testa PUT /usuarios deve alterar endereco pelo ID" duration="4"/>
-    <testCase name="testa PUT /usuarios Não deve alterar endereco com ID invalido" duration="4"/>
-    <testCase name="testa PUT /usuarios Deve alterar dados-pessoais pelo ID" duration="4"/>
-    <testCase name="testa PUT /usuarios Não deve alterar dados-pessoais com ID invalido" duration="4"/>
+    <testCase name="testa PUT /usuarios deve alterar endereco pelo ID" duration="3"/>
+    <testCase name="testa PUT /usuarios Não deve alterar endereco com ID invalido" duration="3"/>
+    <testCase name="testa PUT /usuarios Deve alterar dados-pessoais pelo ID" duration="3"/>
+    <testCase name="testa PUT /usuarios Não deve alterar dados-pessoais com ID invalido" duration="3"/>
     <testCase name="testa DELETE /usuarios deve excluir usuario pelo ID" duration="3"/>
     <testCase name="testa DELETE /usuarios Não deve excluir usuario pelo ID inexistente" duration="3"/>
   </file>

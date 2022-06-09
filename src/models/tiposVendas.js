@@ -62,8 +62,7 @@ class TiposVendas {
         mensagem: "tipoVenda deve conter uma descrição válida",
       },
     ];
-    const erros = validacoes.filter((campo) => !campo.valido);
-    return erros;
+    return validacoes.filter((campo) => !campo.valido);
   }
 }
 

@@ -1,6 +1,6 @@
 const Ufs = require("../models/ufs");
 module.exports = (app) => {
-  app.get("/ufs", (req, res, next) => {
+  app.get("/ufs", (_req, res, next) => {
     Ufs.listar()
       .then((resultados) => res.status(200).json(resultados))
       .catch((erros) => next(erros));

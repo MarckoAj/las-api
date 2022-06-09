@@ -2,7 +2,7 @@ const Usuarios = require("../models/usuarios");
 const valida = require("../models/validacoes.js");
 
 module.exports = (app) => {
-  app.get("/usuarios", (req, res, next) => {
+  app.get("/usuarios", (_req, res, next) => {
     Usuarios.listar()
       .then((resultados) => res.json(resultados))
       .catch((erros) => next(erros));

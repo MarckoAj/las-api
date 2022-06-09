@@ -6,7 +6,7 @@ class TiposVendasRepositorio {
   }
 
   buscarPorId(id) {
-    const tipoVenda = tipoVendaMock.find((tipoVenda) => tipoVenda.id === id);
+    const tipoVenda = tipoVendaMock.find((venda) => venda.id === id);
     return tipoVenda ? Promise.resolve([tipoVenda]) : Promise.resolve([]);
   }
 

@@ -51,7 +51,8 @@
     "collectCoverage": true,
     "collectCoverageFrom": [
       "./src/**",
-      "!./src/repositorios/*"
+      "!./src/repositorios/*",
+      "!./src/controllers/ufs*"
     ],
     "coverageThreshold": {
       "global": {
